@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+.sub-text-header {
+    /* border: solid red 2px; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* top: 0; */
+    /* z-index: 10; */
+    margin-top: 100px;
+    gap: 10px;
+}
+.Header-Home {
+    height: 100vh;
+}
+
+.button-header {
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    margin-top: 40px;
+    color: #BF624C;
+    border: none;
+    font-size: 15px;
+    font-style:italic ;
+}
+.button-header:hover {
+    cursor: pointer;
+    background-color: #BF624C;
+    color: white;
+    border: none;
+}
+ .BRINGYOUHAPPINESS {
+    font-size: 60px;
+    width: 45%;
+    margin: auto;
+    color: white;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+}
+
+ .chocolateheader {
+    color: #BF624C;
+    justify-content: center;
+    display: flex;
+    font-size: 80px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+}
+
+

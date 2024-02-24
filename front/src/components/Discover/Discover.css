@@ -1,0 +1,79 @@
+.imgleftdivdiscover {
+    width: 520px;
+    height: 780px;
+}
+.leftdivdiscover {
+    width: 50%;
+     /* margin-top: 75px; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.discoverinner {
+    /* border: solid red 2px; */
+    display: flex;
+    background-color: #F6F4F2;
+    height: 100vh;
+    align-items: center;
+}
+.aloalo {
+    font-style: italic;
+}
+.newin {
+    font-style: italic;
+    /* border: solid red 2px; */
+}
+.rightdivdiscover {
+    /* border: solid blue 2px; */
+    background-image: url('../../assets/flowerwallapper.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    width: 50%;
+    height: 80%;
+}
+.secondshopnow {
+    width: 150px;
+    height: 50px;
+    margin-top: 50px;
+    font-style: italic;
+    font-size: 15px;
+}
+.secondshopnow:hover {
+    background-color: #BF624C;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.discoverexcellence {
+    /* border: solid red 2px; */
+    font-size: 70px;
+    display: flex;
+    /* margin-top: 1px; */
+    font-style: italic;
+    color: #514633;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+}
+.assd {
+    font-size: 70px;
+    /* border: solid red 2px; */
+    /* display: flex; */
+    color: #514633;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+}
+.dd p {
+    display: flex;
+}
