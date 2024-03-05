@@ -11,6 +11,8 @@ import ContactusPage from './pages/ContactUs/ContactusPage.js';
 import Singleproduct from './pages/Singleproduct/Singleproduct.js';
 import ProductPage2 from './pages/Product2/ProductPage2.js';
 import Cartpage from './pages/CartPage/Cartpage.js';
+import Faqss from './pages/Faqs/Faqs.js';
+import Termspage from './pages/Termsandconditionpage/Termspage.js';
 function App() {
     return (
         <UserProvider>
@@ -24,7 +26,8 @@ function App() {
                     <Route path='/Singleproduct/:id' element={<Singleproduct />} />
                     <Route path="/Product" element={<ProductPage2 />} />
                     <Route path="/cart" element={<Cartpage />} />
-                    
+                    <Route path='/Faqs' element={<Faqss />} />
+                    <Route path='/TermsAndCondtions' element={<Termspage />} />
                 </Routes>
             </Router>
         </UserProvider>

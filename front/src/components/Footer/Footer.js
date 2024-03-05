@@ -13,8 +13,8 @@ const Footer = () => {
                       <h3>Pages</h3>
                       <ul className='ulfooter'>
                           <li><a href="/PrivacyPolicy">Privacy Policy</a></li>
-                          <li><a href="/faqs">FAQs</a></li>
-                          <li><a href="/terms-and-conditions">Terms and Conditions</a></li>
+                          <li><a href="/Faqs">FAQs</a></li>
+                          <li><a href="/TermsAndCondtions">Terms and Conditions</a></li>
                           <li><a href="/about-us">About Us</a></li>
                       </ul>
                   </div>

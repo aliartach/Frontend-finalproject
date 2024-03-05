@@ -1,0 +1,35 @@
+/* faq.css */
+
+/* CSS styles for the FAQs page */
+
+.faq-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    height: calc(73.1vh - 120px);
+    background-color: #f9f9f9;
+}
+
+.faq-question {
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.faq-answer {
+    /* display: none; */
+    margin-bottom: 20px;
+}
+
+.faq-answer.visible {
+    display: block;
+    color: #666;
+}
+@media screen and (max-width: 850px) {
+    .faq-container {
+        padding: 10px;
+        height: 100vh;
+    }
+    
+}
