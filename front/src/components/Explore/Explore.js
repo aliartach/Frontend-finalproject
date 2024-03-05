@@ -8,9 +8,9 @@ import "./Explore.css"
 const Explore = () => {
   return (
     <div>
-       <section className="testest">
+       <div className="testest">
                 <section className="Shopourcategory">
-                    <p className="shopourcollection">SHOP OUR COLLECTIONS</p>
+                    <p className="shopourcollection"><b>SHOP OUR COLLECTIONS</b></p>
                     <p className="exploreourchocolate">EXPLORE OUR CHOCOLATE <span className='spanproducts'>PRODUCTS</span></p>
                 </section>
                 <section className="Imagescollection">
@@ -53,7 +53,7 @@ const Explore = () => {
                         </div>
                     </div>
                 </section>
-                </section>
+                </div>
     </div>
   )
 }

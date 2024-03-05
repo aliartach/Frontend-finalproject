@@ -1,0 +1,140 @@
+.divnavbarmain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 120px;
+    background-color: #222222;
+    color: white;
+    position: relative;
+    z-index: 20;
+}
+.linavbarmain {
+    list-style: none;
+    font-weight: bold;
+} 
+.linavbarmain a {
+  text-decoration: none;
+    color: inherit;
+}
+.logoheader {
+    height: 120px;
+    width: 120px;
+    background: none;
+}
+/* Navbarmain.css */
+.dropdown {
+  position: relative;
+}
+.arrow-icon {
+  margin-left: 5px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border: solid black 1px;
+  color: black;
+  background-color: #f9f9f9;
+  min-width: 140px;
+  padding: 5px;
+  min-height: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.dropdown-content li {
+  padding: 10px 12px;
+  text-decoration: none;
+  display: flex;
+}
+
+.dropdown-content li:hover {
+  cursor: pointer;
+  color: #BF624C;
+}
+
+
+.ulnavbarmain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin: 0; 
+    padding: 0;
+}
+.linavbarmain:hover {
+  cursor: pointer;
+  color: #BF624C;
+}
+
+.leftsidedivnavbarmain {
+    width: 40%;
+   
+}
+
+.logodivnavbar {
+    width: 20%;
+    
+   display: flex;
+   justify-content: center;
+}
+
+.rightsidedivnavbarmain {
+    width: 40%;
+    /* border: solid red 2px; */
+    display: flex;
+    justify-content: space-around;
+}
+.trytestdivmain {
+    height: 10px;
+    width: 10px;
+    /* border: solid red 2px; */
+}
+.linavbarmain.active a {
+  color: #BF624C; /* Change the color for active link */
+}
+
+@media screen and (max-width: 820px) {
+    .ulnavbar {
+      flex-direction: row;
+    }
+    .divnavbarmain {
+      /* border: solid red 2px; */
+      padding: 15px;
+    }
+  
+    .ulnavbarmain li {
+      margin-bottom: 0;
+      margin-right: 5px;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  
+    .leftsidedivnavbarmain {
+      /* width: auto; */
+      flex: 1;
+    }
+    .licontact {
+      display: none;
+    }
+  
+    .rightsidedivnavbarmain {
+      width: auto;
+      /* border: solid red 1px; */
+      /* flex: 1; */
+      /* justify-content: flex-end; */
+    }
+  }
+  

@@ -1,0 +1,9 @@
+.divprivacypolicy {
+    border: solid red 2px;
+    height: 150px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+}

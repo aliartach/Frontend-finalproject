@@ -1,0 +1,141 @@
+.productPage {
+    display: flex;
+    flex-direction: column;
+}
+
+.productpagecontent {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    min-height: calc(100vh - 120px);
+}
+
+.productSelection {
+    border-top: solid rgb(127, 133, 116) 1.5px;
+    border-bottom: solid rgb(127, 133, 116) 1.5px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.sidebar {
+    width: 20%;
+    padding: 20px;
+    border-right: solid rgb(127, 133, 116) 1.5px;
+    height: auto;
+}
+.filteredbutton.active,
+.filteredbuttonall.active {
+    background-color: #BF624C;
+    color: white;
+}
+.sidebar h3 {
+    margin-bottom: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.filteredbutton,
+.filteredbuttonall {
+    background-color: white;
+    color: #BF624C;
+    border: solid #BF624C 1px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.filteredbutton:hover,
+.filteredbuttonall:hover {
+    background-color: #BF624C;
+    color: white;
+}
+
+.product-list {
+    width: 80%;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.productItem {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    height: 350px;
+}
+
+.productItem:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+
+}
+.productItem h6,
+.productItem p {
+    text-decoration: none;
+    color: inherit; /* Inherit color from parent */
+}
+.Link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.productimage {
+    max-width: 100%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 830px) {
+    .productItem {
+        height: auto;
+        width: 100%;
+        padding: 5px;
+    }
+    .productpagecontent {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .productimage {
+        width: auto;
+        height: 155px;
+    }
+    .productSelection {
+        border: none;
+        width: 100%;
+        padding: 5px;
+        display:block;
+        margin: auto;
+    }
+    .product-list {
+        width: 100%;
+        padding: 5px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    .filteredbutton {
+        width: 45%;
+        margin: 5px;
+    }
+    .filteredbuttonall {
+        width: 55%;
+        margin: auto;
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    .sidebar {
+        width: 100%;
+    }
+}

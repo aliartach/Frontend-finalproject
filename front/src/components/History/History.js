@@ -8,10 +8,10 @@ const History = () => {
         <div className='leftdivhistory'>
           <h2>History</h2>
           <p className='historydescription'>We Are Dedicated To Creating And Providing The Ultimate In Luxury Gifts For All Age Groups. We Use Only Fairly Traded, Organically Grown, Premium Quality Products Sourced From Small-Scale Farmers, Supporting Farming Communities Through Trade Rather Than Aid.</p>
-          <button className='aboutusbutton'><b>- About Us -</b></button>
+          <button className='aboutusbutton'><b>- ABOUT US -</b></button>
         </div>
         <div className='rightdivhistory'>
-          <img src={Historyhome} alt="HistoryImage" />
+          <img src={Historyhome} className='historyimage' alt="HistoryImage" />
         </div>
       </div>
     )

@@ -12,7 +12,7 @@
 .discoverinner {
     /* border: solid red 2px; */
     display: flex;
-    background-color: #F6F4F2;
+    /* background-color: #F6F4F2; */
     height: 100vh;
     align-items: center;
 }
@@ -43,12 +43,21 @@
     margin-top: 50px;
     font-style: italic;
     font-size: 15px;
+    border: none;
+    color: white;
+    background-color: #BF624C;
+    border-radius: 5px;
+
+}
+.secondshopnow a {
+    text-decoration: none;
+    color: inherit;
 }
 .secondshopnow:hover {
-    background-color: #BF624C;
-    color: white;
+    background-color: white;
+    color: #BF624C;
+    border: solid #BF624C 1px;
     cursor: pointer;
-    border: none;
 }
 .discoverexcellence {
     /* border: solid red 2px; */
@@ -76,4 +85,35 @@
 }
 .dd p {
     display: flex;
+}
+@media screen and (max-width: 880px) {
+    .leftdivdiscover {
+        display: none;
+    }
+    .discoverinner {
+        width: 100%;
+        /* border: solid green 2px; */
+        height: 55vh;
+    }
+    .discoverexcellence {
+        font-size: 30px;
+        color: #BF624C;
+    }
+    .rightdivdiscover {
+        width: 100%;
+        padding: 20px;
+        /* border: solid red 2px; */
+        height: 100%;
+    }
+    .assd {
+        font-size: 30px;
+        color: #BF624C;
+    }
+    .secondshopnow {
+        width: 100px;
+        height: 35px;
+        font-size: 10px;
+        
+    }
+    
 }

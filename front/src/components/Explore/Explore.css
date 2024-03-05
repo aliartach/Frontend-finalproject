@@ -1,14 +1,8 @@
 .shopourcollection {
-    /* border: solid green 2px; */
-    /* display: flex; */
-    /* margin: auto; */
-    margin-bottom: -30px;
     font-size: 20px;
-    /* font-style: italic; */
-}
+    font-style: italic;}
 .spanproducts {
-    margin-left: 170px;
-}
+    margin-left: 170px;}
 .exploreourchocolate{
     font-size: 50px;
     width: 650px;
@@ -17,93 +11,62 @@
         -1px -1px 0 #000,  
          1px -1px 0 #000,
         -1px  1px 0 #000,
-         1px  1px 0 #000;
-}
-
+         1px  1px 0 #000;}
 .labeldescription {
-    font-size: 25px;
-}
+    font-size: 25px;}
 .labelitem {
-    font-size: 15px;
-}
+    font-size: 15px;}
 .testest {
     height: 100vh;
-    padding: 20px;
-    /* background-color: #F6F4F2; */
-}
+    padding: 20px;}
 .Shopourcategory {
-    /* border: solid blue 3px; */
     height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-}
+    margin-top: 50px;}
 .productimg {
     height: 420px;
-    width: 350px;
-}
+    width: 350px;}
 .yogurtimg {
     height: 420px;
-    width: 350px;
-}
-
+    width: 350px;}
 .chocolatebar {
-
     height: 420px;
-    width: 350px;
-}
+    width: 350px;}
 .imageproductheader2{
-    /* border: solid red 2px; */
     display: flex;
     flex-direction: column;
     gap: 15px;
     height: auto;
-    justify-content: flex-end;
-
-}
+    justify-content: flex-end;}
 .imageproductheader3{
-    /* border: solid yellow 3px; */
     display: flex;
     flex-direction: column;
     gap: 15px;
-    height: auto;
-}
+    height: auto;}
 .imageproductheader4 {
-    /* border: solid black 2px; */
     display: flex;
     flex-direction: column;
     gap: 15px;
     height: auto;
-    justify-content: flex-end;
-
-
-}
+    justify-content: flex-end;}
 .imageproductheader1 {
-    /* border: solid green 2px; */
     display: flex;
     flex-direction: column;
     gap: 15px;
-    height: auto;
-
-}
+    height: auto;}
 .icereamimg {
     height: 420px;
-    width: 350px;
-}
+    width: 350px;}
 .inner {
     display: flex;
     flex-direction: column;
     gap: 10px;
     /* border: solid red 2px; */
     justify-content: center;
-    align-items: center;
-    
-}
-/* .imageproductheader2 {
-    border: solid red 2px;
-} */
+    align-items: center;}
 .ossaa {
     display: flex;
     flex-wrap: wrap;
@@ -112,3 +75,61 @@
     gap: 20px;
     height: 520px;
 }
+@media screen and (max-width: 880px) {
+   .spanproducts {
+    font-size: 20px;
+    margin: auto;
+   }
+   .imageproductheader1 {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+   }
+   .imageproductheader2 {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+   }
+   .imageproductheader3 {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+   }
+   .imageproductheader4 {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+   }
+   .exploreourchocolate{
+    display: none;
+    }
+    .shopourcollection {
+        font:bold;
+        font-size: 20px;
+    }
+    .Shopourcategory {
+        margin-top: 1px;
+        height: 150px;
+    }
+    .ossaa {
+        height: auto;
+    }
+    .yogurtimg {
+        height: 140px;
+        width: 140px;
+    }
+    .productimg {
+        height: 140px;
+        width: 140px;
+    }
+    .icereamimg {
+        height: 140px;
+        width: 140px;
+    }
+    .chocolatebar {
+        height: 140px;
+        width: 140px;
+    }
+    .labeldescription {
+        font-size: 17px;
+    }
+    .testest {
+        height: 90vh;
+    }
+}    
