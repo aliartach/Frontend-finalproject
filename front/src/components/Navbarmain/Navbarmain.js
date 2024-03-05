@@ -3,6 +3,7 @@ import "./Navbarmain.css"
 import Logo from "../../assets/logo.png"
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import cart from "../../assets/cart.svg"
+import usericon from "../../assets/usericon.svg"
 
 
 
@@ -37,9 +38,11 @@ const Navbarmain = () => {
         <Link to='/'><img src={Logo} alt='logo' className='logoheader'/></Link>
       </div>
       <div className='rightsidedivnavbarmain'>
-        <div className='trytestdivmain'></div>
+      <div className='ttyy'>
+      <Link to="/ProfilePage"><img src={usericon} alt='usericon' className='usericon' /></Link>
+
         <img className='carticon' onClick={handlenavigate} src={cart} alt='carticon' />
-        
+        </div>
       </div>
     </div>
   )

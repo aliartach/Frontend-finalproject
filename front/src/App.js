@@ -13,6 +13,9 @@ import ProductPage2 from './pages/Product2/ProductPage2.js';
 import Cartpage from './pages/CartPage/Cartpage.js';
 import Faqss from './pages/Faqs/Faqs.js';
 import Termspage from './pages/Termsandconditionpage/Termspage.js';
+// import ProfilePage from "./components/Userprofile/Userprofile.js"
+import Userprofilepage from './pages/Userprofile/Userprofilepage.js';
+
 function App() {
     return (
         <UserProvider>
@@ -28,6 +31,7 @@ function App() {
                     <Route path="/cart" element={<Cartpage />} />
                     <Route path='/Faqs' element={<Faqss />} />
                     <Route path='/TermsAndCondtions' element={<Termspage />} />
+                    <Route path='/ProfilePage' element={<Userprofilepage />} />
                 </Routes>
             </Router>
         </UserProvider>

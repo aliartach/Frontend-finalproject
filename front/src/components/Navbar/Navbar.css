@@ -18,9 +18,15 @@
     height: 25px;
     width: 25px;
 }
+.usericon:hover {
+    cursor: pointer;
+}
 .carticon {
     height: 25px;
     width: 25px;
+}
+.carticon:hover {
+    cursor: pointer;
 }
 .linavbar a {
     text-decoration: none;

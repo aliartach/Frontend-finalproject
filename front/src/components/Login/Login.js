@@ -12,7 +12,11 @@ function Login() {
         event.preventDefault();
         try {
             const response = await axios.post('https://backend-finalproject-fb9a.onrender.com/api/client/auth/login', { email, password });
-            console.log(response.data);
+            const userData = response.data.clientId;
+            console.log(userData);
+            localStorage.setItem('userData', JSON.stringify(userData));
+
+           
             navigate('/'); // Redirect to homepage on successful login
         } catch (error) {
             console.error(error);

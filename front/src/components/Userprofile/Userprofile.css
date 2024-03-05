@@ -1,0 +1,28 @@
+/* Userprofile.css */
+
+.user-profile {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    min-height: calc(73.1vh - 120px);
+  }
+  
+  .user-profile h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .user-profile p {
+    margin-bottom: 10px;
+  }
+  
+  .user-profile strong {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  

@@ -86,12 +86,21 @@
    display: flex;
    justify-content: center;
 }
-
+.ttyy {
+  /* border: solid blue 2px; */
+  width: 50%;display: flex;
+  justify-content: space-around;
+}
 .rightsidedivnavbarmain {
     width: 40%;
     /* border: solid red 2px; */
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-evenly; */
+    justify-content: flex-end;
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    padding-left: 50px;
+    /* justify-content: space-around; */
 }
 .trytestdivmain {
     height: 10px;

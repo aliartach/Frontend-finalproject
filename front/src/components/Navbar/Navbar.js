@@ -27,7 +27,7 @@ const Navbar = () => {
             <ul className="dropdown-content1">
               <li><Link to='/Productus'>About Us</Link></li>
               <li>History</li>
-              <li>FAQs</li>
+              <li><a href='/Faqs'>FAQs</a></li>
             </ul>
           </li>
           <li className={`linavbar ${location.pathname === '/Contactus' ? 'active' : ''}`}><Link to='/Contactus'>CONTACT</Link></li>
@@ -38,7 +38,7 @@ const Navbar = () => {
       </div>
       <div className='rightsidedivnavbar'>
       <div className='ttss'>
-        <img src={usericon} alt='usericon' className='usericon' />
+        <Link to="/ProfilePage"><img src={usericon} alt='usericon' className='usericon' /></Link>
         <img className='carticon' onClick={handlenavigate} src={cart} alt='carticon' />
         </div>
       </div>
