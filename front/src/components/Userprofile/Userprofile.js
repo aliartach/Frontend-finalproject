@@ -13,8 +13,8 @@ const Userprofile = () => {
     const fetchUserData = async () => {
       try {
         // Get the user ID from local storage
-        const userId = localStorage.getItem('clientId');
-        console.log(userId)
+        const userId = localStorage.getItem('test');
+        console.log('asdasda', userId)
 
         // Make sure user ID exists
         if (!userId) {
@@ -22,7 +22,7 @@ const Userprofile = () => {
         }
 
         // Make a GET request to fetch user data by ID
-        const response = await axios.get(`https://backend-finalproject-fb9a.onrender.com/api/clients/${userId}`);
+        const response = await axios.get(`https://backend-finalproject-fb9a.onrender.com/api/client/${userId}`);
         
         // Extract user data from the response
         const user = response.data.client;

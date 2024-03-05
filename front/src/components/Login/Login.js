@@ -12,12 +12,9 @@ function Login() {
         event.preventDefault();
         try {
             const response = await axios.post('https://backend-finalproject-fb9a.onrender.com/api/client/auth/login', { email, password });
-            const userData = response.data.clientId;
-            console.log(userData);
-            localStorage.setItem('userData', JSON.stringify(userData));
-
-           
+            console.log('HAYDA',response.data.clientId);
             navigate('/'); // Redirect to homepage on successful login
+            localStorage.setItem('test', response.data.clientId)
         } catch (error) {
             console.error(error);
         }
